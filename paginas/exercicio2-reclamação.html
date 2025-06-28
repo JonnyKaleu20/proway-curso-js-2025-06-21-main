@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="/Css/exercicio02-reclamação.css">
+</head>
+
+<body>
+    <h1>Reclame Aqui</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" id="campo-nome" placeholder="Digite seu nome">
+        </div>
+
+        <div>
+            <label for="campo-email">E-mail</label>
+            <input type="text" id="campo-email" placeholder="Digite seu E-mail">
+        </div>
+
+        <div>
+            <label for="campo-reclamacao">Reclamação</label>
+            <input type="text" id="campo-reclamacao" placeholder="Faça sua reclamação">
+        </div>
+          <button type="button" onclick="reclamacao()">Enviar a Reclamação</button>
+    <p></p>
+          <label for="campo-reclamacoes" >Reclamação</label> <br>
+    <textarea id="campo-reclamacoes" disabled readonly rows="40" cols="100"></textarea>
+</body>
+</html>
+<script src="exercicio02-reclamação.js"></script>
